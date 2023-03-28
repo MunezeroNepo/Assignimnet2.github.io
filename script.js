@@ -2,7 +2,16 @@
 
     var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
     
-    
+    var byeSpeaker = {
+      speak: function(nametobye){
+          console.log("Good bye " + nametobye)
+      }
+    };
+    var helloSpeaker = {
+      speak: function(nametogreet){
+         console.log("Hello " + nametogreet)
+      }
+    };
 
     
     for (var i = 0; i < names.length; i++) {
